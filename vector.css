@@ -1,0 +1,20 @@
+/*
+
+1. Log in
+2. Go to https://en.wikipedia.org/wiki/Special:Preferences#mw-prefsection-rendering
+3. Look for Vector > Custom CSS
+4. Paste this css in
+5. Save (there might be a captcha)
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic);
+
+.mw-body { 
+	max-width: 920px;
+	font-family: Vollkorn, serif;
+	text-rendering: optimizeLegibility;
+	font-variant-ligatures: common-ligatures;
+	font-size: 125%;
+	margin-left: 176px;
+}
